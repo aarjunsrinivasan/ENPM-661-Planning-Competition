@@ -1,0 +1,17 @@
+1. Copy paste the toycar package into your workspace and source it
+2. Run the following command in your terminal
+
+Roslaunch toycar gazebo.launch
+
+This will launch the toy car model with the Lidar and IMU attached. 
+
+Phase 1: Lidar and IMU integration has been done. Check videos folder for the same
+
+Phase 2: Both longitudinal and Lateral controllers have been implemented. Check the code for the same
+
+Phase 3: Mapping has been partially done. The Teleop_key node package has been modified to move our toycar in the given environment. Check the modified package of teleopkey attached.
+
+Mapping is still in progress. Video recording of the partially mapped environment and controlling the toycar via Teleopkey is provided.
+
+
+The A* star has been used to give the final path based on the constraints from the Ackermann steering model. The output published to the controller are Steering profile and vehicle velocity.

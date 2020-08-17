@@ -1,1 +1,0 @@
-# ENPM-661-Planning-Competition
